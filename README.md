@@ -1,4 +1,4 @@
-Posted to <https://apple.stackexchange.com/questions/457341/cllocation-doesnt-work-from-cli-app-on-macos-ventura>
+Posted to <https://apple.stackexchange.com/questions/457341/cllocation-doesnt-work-from-cli-app-on-macos-ventura> originally, then moved to <https://stackoverflow.com/questions/75782846/cllocation-doesnt-work-from-cli-app-on-macos-ventura>
 
 ---
 
@@ -142,3 +142,9 @@ client '[92F5C54E-CAEB-44A5-AF60-85E44A017BD2]com.n8henrie.location-objc' not au
 but nothing ever shows.
 
 How can I get a standalone CLI executable to use `CLLocation`? I do *not* consider using `Shortcuts.app` to be a reasonable workaround in this case, though users looking for a "quick and dirty" solution might take this approach.
+
+Sidenote:
+
+This was originally [asked on AskDifferent](https://apple.stackexchange.com/questions/457341/cllocation-doesnt-work-from-cli-app-on-macos-ventura) but closed as off-topic (with a recommendation to post at SO) based on [their rules](https://apple.stackexchange.com/help/on-topic), though I had thought this fell under their specific example of Xcode for non-language specific tasks (as I think the issue is with permissions, codesigning, sandboxing, etc and not swift or objc).
+
+> Code-level programming questions (cocoa, LLVM, etc…) are off-topic here. We do encourage AppleScript, Automator, and UNIX shell scripting questions as well as how to use tools like Xcode for non-language specific tasks.
